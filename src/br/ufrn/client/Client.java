@@ -36,9 +36,11 @@ public class Client extends UnicastRemoteObject implements ClientInterface {
             
             switch (Integer.parseInt(input)) {
                 case 1:
+                    System.out.println("Digite a palavra:");
                     addWord(scanner.nextLine());
                     break;
                 case 2:
+                    System.out.println("Digite a palavra:");
                     findWord(scanner.nextLine());
                     break;
                 default:
